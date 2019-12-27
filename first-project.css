@@ -1,0 +1,182 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+body{
+ padding-top:70px;
+ background:black;
+ color:#9fe5ff;
+ overflow:auto; 
+}
+*{
+ -webkit-box-sizing:border-box;
+         box-sizing:border-box;
+         list-style:none;
+         font-family: 'Open Sans', sans-serif;
+}
+
+/*start navbar*/
+.w-100{width:100%;  height: 370px;}
+.navbar-dark .navbar-nav .nav-link {margin-right: 25px;}
+/*end navbar*/
+/*start carousal*/
+.carousel-inner {width: 70%; overflow: hidden;}
+.carousel-control-next-icon {
+    background-image: none;
+}
+.carousel-control-prev-icon {
+    background-image: none;
+}
+/*end carousal*/
+/*end about*/
+.about{
+ margin-top:20px; 
+ padding-top:60px;
+ padding-bottom:60px; 
+}
+.about .lead{margin-top:15px;}
+/*end about*/
+/*start services*/
+.service{margin:10px;}
+/*end services*/
+/*start teste.*/
+.carousel-inner{min-height:178px;}
+.testi .carousel-item{margin-bottom:15px;}
+.testi span{font-size:18px; font-family: cursive;}
+#testimonials-carousal{padding:4px;}
+.testi .carousel-indicators img{
+ width:50px;
+ height:50px;
+ border-radius:50%; 
+}
+.carousel-indicators li {
+    width: auto;
+     height: auto;
+     text-indent: 0;
+     border-top: none; 
+     border-bottom: none;
+     background:none;
+}
+/*end teste.*/
+/*start price-table*/
+.prices .h1{margin-bottom:20px;}
+ .price-box{border:1px solid grey; padding:10px;}
+.price-box img{ width:300px; height:300px;}
+/*end price table*/
+/*start cap-rent*/
+.plan{margin:20px;}
+.plan .list-group-item{margin-left:10px; margin-right:10px; }
+/*end cap-rent*/
+/*start sponsers*/
+.sponsers img{
+ border-radius:50%;
+ width:300px;
+ height:250px; 
+}
+.sponser p{min-height: 91px;}
+.sponser{min-height:500px; }
+.sponsers ul{margin-right:41px;}
+.sponsers li{ display:inline-block; margin:2px;}
+
+/*end sponsers*/
+/*start subscribe*/
+.subscribe .form-control{width:350px; }
+.subscribe .h1{margin-bottom:10px; }
+.subscribe form{margin-top: 29px;}
+/*end subscribe*/
+/*start stats*/
+.stats i{font-size:55px;}
+.stats p{
+ opacity:0.9;
+ font-size:30px;
+ margin-bottom:0;
+}
+.stats span{font-size:19px;}
+.stats i:hover{opacity:1;}
+/*end stats*/
+/*start contact*/
+.contact i{font-size:51px;}
+.contact textarea{min-height:108px;}
+.contact .form-control{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 43px;
+ 
+}
+/*end contact*/
+/*start footer*/
+.column li{width:33.3333%;}
+.column li{margin-bottom:10px;}
+.social{margin-left: 17px;}
+.social li{
+    margin-right: 11px;
+    font-size: 36px;
+    overflow:hidden;
+  /*  color:white;
+    border-radius: 50%;
+    width: 45px;
+    height: 44px;
+    line-height: 1.3;
+    background-color:blue;*/
+}
+.last-article i{
+    margin-right: 11px;
+    font-size: 70px;
+    margin-top:8px;
+}
+.media-body{text-align:left !important;}
+.our-work img{
+ margin-bottom:5px;
+    height: 151px;
+    width: 151px;
+}
+/*end footer*/
+/*start tool box*/
+.inner-tool-box{
+     position: fixed;
+    top: 50%;
+    left: 42%;
+}
+.setting{
+     position: fixed;
+    top: 9%;
+    z-index: 9999;
+    top: 18%;
+    font-size: 30px;
+    left: 2%;
+}
+.colors-option-list li{margin-bottom:10px; }
+/*end tool box*/
+/*satrt loading*/
+.loading-section{
+ position:absolute;
+ top:0;
+ left:0;
+ height:100%;
+ width:100%;
+ background-color:black;
+ z-index:99999; 
+}
+.spinner-border{
+ position:absolute;
+ top:50%;
+ left:50%;
+}
+/*end laoding*/
+/*same styles*/
+.carousel-inner,.testi .carousel-indicators{position: relative;}
+.carousel-inner,.images{margin:auto;}
+.about .h1,.testi .h1,.testi span,.stats p{ font-weight:bold; }
+.about .lead,.navbar-brand{font-size:25px;}
+ .sponsers img,.price-box img{
+ width:300px;
+ height:300px;
+ }
+ .sponser i,.column li,.social li,.setting{cursor:pointer; }
+.sponsers li,.social li{ display:inline-block;}
+ .service,.subscribe,.stats,.contact,footer{padding:20px;}
+ .plan button,.stats i{margin-top:20px;}
+ .price-box,.stat{margin:20px;}
+ .stats i,.contact i{ opacity:0.8;}
+ .contact input,.contact textarea,.contact .form-control,.contact textarea:focus{
+ border:none;
+}
+.column li,.social,.last-article i{float:left;}
