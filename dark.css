@@ -1,0 +1,48 @@
+/**default colors**/
+.dropdown-menu,.buy-now {/*dropdown menu*/
+background-color:#212529;  
+}
+.dropdown-item:focus, .dropdown-item:hover{/*dropwon item on hover*/
+ background-color: #2e3235;
+ color: white; 
+}
+.service{
+ background-color:blue;
+}
+.contact input,.contact textarea,.contact .form-control,.contact textarea:focus{
+  background-color:rgba(82,78,78,0.7);   
+}
+footer .img-thumbnail{
+ border-color:black;
+}
+.subscribe-btn{
+ background-color:red;
+ border-color:red; 
+}
+.carousel,.bg-dark,.dropdown-menu,footer .img-thumbnail,body {/*black background-color */
+    background-color:black!important;
+}
+.testi,.about,#testimonials-carousal,.cap-renting,.subscribe,.contact,.modal-content{/*sections background*/
+ background-color: #040406 !important;
+ margin-top:20px; 
+}
+.service,.price-box,.plan,.list-group-item,.modal-footer .btn-primary {
+ background-color:#07071d;
+  border:1px solid #07071d;
+}
+/**colors**/
+.social li i,.column li,.last-article h4,.last-article i{
+ color:rgba(82,78,78,0.7) !important;
+}
+.red-span,footer h3{/*red color*/
+ color:red!important;
+}
+.stats p,.stats i:hover,.contact i,.contact input,
+.contact textarea,.contact .form-control,
+.contact textarea:focus,h1,h2,h3,h4,h5,h6,span,
+.dropdown-item,.footer p,.media-body{
+ color:white;
+}
+body{
+    color:#9fe5ff;
+}

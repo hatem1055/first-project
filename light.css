@@ -1,0 +1,51 @@
+/**background colors**/
+/*.carousel-indicators li{
+ background-color:#9fe5ff; 
+}*/
+.dropdown-menu,.buy-now {/*dropdown menu*/
+background-color:#212529;  
+}
+.dropdown-item:focus, .dropdown-item:hover{/*dropwon item on hover*/
+ background-color: #e9ecef;
+}
+.service{
+ background-color:blue;
+}
+.contact input,.contact textarea,.contact .form-control,.contact textarea:focus{
+      background-color: rgba(242, 255, 253, 1);   
+}
+footer .img-thumbnail{
+ border-color:black;
+}
+.subscribe-btn{
+ background-color:red;
+ border-color:red; 
+}
+.carousel,.bg-dark,.dropdown-menu,footer .img-thumbnail,body {/*black background-color */
+    background-color:white!important;
+}
+.testi,.about,#testimonials-carousal,.cap-renting,.subscribe,.contact,.modal-content{/*sections background*/
+ background-color: #d0d0d8 !important;
+ margin-top:20px; 
+}
+.service,.price-box,.plan,.list-group-item,.modal-footer .btn-primary {
+    background-color: #0c86ff;
+    border: 1px solid #b5e0da;
+}
+/**colors**/
+body{
+    color:black;
+}
+.social li i,.column li,.last-article h4,.last-article i{
+ color:black !important;
+}
+.red-span,footer h3{/*red color*/
+ color:red!important;
+}
+.stats p,.stats i:hover,.contact i,.contact input,
+.contact textarea,.contact .form-control,.h1,h2,h3,h4,h5,h6,span,
+.dropdown-item,.footer,.contact input,.contact textarea
+p,.media-body,.contact .form-control,.contact textarea:focus
+.contact textarea:focus,.dropdown-item,.footer p,.media-body,.dropdown-item:focus, .dropdown-item:hover{
+ color:black;
+}

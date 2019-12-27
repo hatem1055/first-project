@@ -1,0 +1,30 @@
+/*start media queries*/
+/*mobile stylies*/
+@media(max-width:576px){
+ .service p,.testi p{
+  font-size:17px; 
+ }
+ .contact .h1,.testi .h1,.cap-renting .h1,.stats .h1,.subscribe .h1{
+  font-size:32px; 
+ }
+ .sponsers img{
+  width: 206px;
+height: 241px;
+ }
+.social li {
+    font-size: 17px;
+}
+.subscribe .form-control {
+    width: 239px;
+}
+footer .img-thumbnail {
+    border-color:black;
+    width: 105px;
+    height: 100px;
+}
+.about .lead {
+    font-size: 20px;
+    margin-top: 15px;
+}
+}
+/*end media queries*/
